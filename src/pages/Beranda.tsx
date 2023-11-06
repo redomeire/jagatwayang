@@ -1,5 +1,5 @@
 export default function Beranda (){
     return(
-        <div>beranda</div>
+        <div className="font-satoshi text-xl font-bold">beranda</div>
     )
 }
