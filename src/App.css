@@ -16,3 +16,7 @@
     font-family: Satoshi-Bold;
     src: url("fonts/Satoshi-Bold.otf") format("opentype");
 }
+
+nav {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.64) 0%, rgba(0, 0, 0, 0.00) 100%);
+}

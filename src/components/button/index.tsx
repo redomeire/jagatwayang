@@ -12,7 +12,7 @@ const Button = (props: Props) => {
     const buttonClassName = twMerge(checkButtonColor(props.variant), props.className ?? '')
 
     return (
-        <button className={buttonClassName} {...props}>
+        <button {...props} className={buttonClassName}>
 
         </button>
     )
@@ -20,8 +20,8 @@ const Button = (props: Props) => {
 
 const checkButtonColor = (variant: ColorVariant) => {
     const colorObj = {
-        "primary": "",
-        "secondary": "",
+        "primary": "p-3 rounded-full bg-gradient-to-r from-[#745021] to-[#773B04] text-opacity-50 text-xl",
+        "secondary": "p-3 rounded-full bg-transparent text-white border-white border-[1.5px] hover:bg-white hover:text-black transition duration-200 active:brightness-50 text-xl",
         "tertiary": "",
     }
 
