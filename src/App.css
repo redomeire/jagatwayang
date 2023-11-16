@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: Satoshi;
+    src: url("fonts/Satoshi-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Satoshi-Italic;
+    src: url("fonts/Satoshi-Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Satoshi-Bold;
+    src: url("fonts/Satoshi-Bold.otf") format("opentype");
+}
+
+nav {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.64) 0%, rgba(0, 0, 0, 0.00) 100%);
+}
